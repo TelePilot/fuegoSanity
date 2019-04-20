@@ -1,6 +1,6 @@
 export default {
-  title: "Header",
-  name: "header",
+  title: "Footer",
+  name: "footer",
   type: "document",
   fields: [
     {

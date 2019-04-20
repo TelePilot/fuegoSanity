@@ -1,6 +1,6 @@
 export default {
-  title: "Menu Item",
-  name: "menuItem",
+  title: "Social Media",
+  name: "socialMedia",
   type: "object",
   fields: [
     {
