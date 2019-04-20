@@ -16,7 +16,7 @@ export default {
     {
       title: "Phone number",
       name: "phone",
-      type: "number",
+      type: "string",
     },
     {
       title: "Menu",
