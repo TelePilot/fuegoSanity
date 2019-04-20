@@ -6,6 +6,7 @@ export default {
     {
       title: "Social media",
       name: "socialMedia",
+      type: "array",
       of: [{type: 'socialMedia'}],
     },
     {
