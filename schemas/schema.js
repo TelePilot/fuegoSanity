@@ -7,6 +7,9 @@ import header from './header.js'
 import menuItem from './menuItem.js'
 import footer from './footer.js'
 import socialMedia from './socialMedia.js'
+import video from './video.js'
+import teamMember from './teamMember.js'
+import client from './client.js'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -18,7 +21,10 @@ export default createSchema({
     header,
     menuItem,
     footer,
-    socialMedia
+    socialMedia,
+    video,
+    teamMember,
+    client
 
   ])
 })
