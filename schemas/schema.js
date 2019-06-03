@@ -8,6 +8,7 @@ import menuItem from './menuItem.js'
 import footer from './footer.js'
 import socialMedia from './socialMedia.js'
 import video from './video.js'
+import showreel from './showreel.js'
 import teamMember from './teamMember.js'
 import client from './client.js'
 
@@ -23,6 +24,7 @@ export default createSchema({
     footer,
     socialMedia,
     video,
+    showreel,
     teamMember,
     client
 
