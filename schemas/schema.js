@@ -11,6 +11,7 @@ import video from './video.js'
 import showreel from './showreel.js'
 import teamMember from './teamMember.js'
 import client from './client.js'
+import about from './about.js'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -26,7 +27,8 @@ export default createSchema({
     video,
     showreel,
     teamMember,
-    client
+    client,
+    about
 
   ])
 })
