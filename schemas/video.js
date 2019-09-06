@@ -24,6 +24,11 @@ export default {
       type: 'boolean'
     },
     {
+      title: 'Home Video?',
+      name: 'homeVideo',
+      type: 'boolean'
+    },
+    {
       title: "Client",
       name: "client",
       type: 'array',
@@ -67,7 +72,7 @@ export default {
     {
       title: "Vimeo Link",
       name: "vimeoLink",
-      type: "url",
+      type: "string",
     }
   ]
 }

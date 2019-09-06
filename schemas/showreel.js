@@ -47,7 +47,7 @@ export default {
     {
       title: "Vimeo Link",
       name: "vimeoLink",
-      type: "url",
+      type: "string",
     }
   ]
 }
