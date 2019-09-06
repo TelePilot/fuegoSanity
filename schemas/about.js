@@ -14,6 +14,11 @@ export default {
       type: "string",
     },
     {
+      title: "Desc Header",
+      name: "descHeader",
+      type: "string",
+    },
+    {
       title: "Desc",
       name: "desc",
       type: "string",

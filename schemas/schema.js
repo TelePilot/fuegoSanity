@@ -12,7 +12,7 @@ import showreel from './showreel.js'
 import teamMember from './teamMember.js'
 import client from './client.js'
 import about from './about.js'
-
+import home from './home.js'
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   name: 'fuegoSchema',
@@ -28,7 +28,8 @@ export default createSchema({
     showreel,
     teamMember,
     client,
-    about
+    about,
+    home
 
   ])
 })

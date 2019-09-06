@@ -19,6 +19,11 @@ export default {
       type: "date",
     },
     {
+      title: 'Client Work?',
+      name: 'clientWork',
+      type: 'boolean'
+    },
+    {
       title: "Client",
       name: "client",
       type: 'array',
@@ -41,6 +46,21 @@ export default {
           to: [
             {type: 'teamMember'}
           ]
+        }
+      ]
+    },
+    {
+      title: "Thumbnail",
+      name: "thumbnail",
+      type: "image",
+    },
+    {
+      title: "BTS",
+      name: "bts",
+      type: "array",
+      of: [
+        {
+          type: "image"
         }
       ]
     },
